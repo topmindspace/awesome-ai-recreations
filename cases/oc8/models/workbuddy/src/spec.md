@@ -1,8 +1,15 @@
-# WorkBuddy 版 · 实现规格与改编项
+# 机械章鱼 OC-8 · Claude 实现规格与改编项
+
+模型：Claude（Anthropic），具体型号未归档。执行工具：WorkBuddy。版本目录 `workbuddy` 是已发布路径，不是模型名。
+
+`visual_goal: fidelity`。`provenance: independent`（贡献记录写明未复用已有实现）。
+
+下面的节数、角度和频率是本版程序化实现里的设计值，不是对照原作帧量出的标尺。规格模板里的参数表、参考测量和时间线没有在原会话归档，这里不补写未经测量的数值。
 
 ## 总体
 
-- 单页应用：`index.html`（HUD/样式）+ `src/main.js`（全部三维逻辑）+ `lib/three.min.js`（r148 UMD）。
+- 单页应用：`index.html`（HUD/样式）+ `src/main.js`（全部三维逻辑）+ `lib/three.min.js`（r148 UMD）。`film.html` 由 `src/build.mjs` 从 `index.html` 生成，并插入 25 秒巡览驱动。
+- 页面用空的 `data:,` 图标，避免浏览器再请求不存在的 `/favicon.ico`。
 - 场景为浅色影棚（原作同为浅色背景），白装甲 + 黑关节 + 橙色点缀三色板。
 - 网格总量约 944；全部程序化几何，无外部模型、贴图。
 

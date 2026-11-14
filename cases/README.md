@@ -13,7 +13,7 @@
 
 | 案例 | 共同任务 | 已发布版本 |
 |---|---|---|
-| [机械章鱼OC-8](oc8/README.md) | [任务书](oc8/task/brief.md) · [清单](oc8/task/input.json) | 5 |
+| [机械章鱼OC-8](oc8/README.md) | [任务书](oc8/task/brief.md) · [清单](oc8/task/input.json) | 6 |
 | [V8发动机](v8/README.md) | [任务书](v8/task/brief.md) · [清单](v8/task/input.json) | 2 |
 | [塞斯纳337起落架](cessna337/README.md) | [任务书](cessna337/task/brief.md) · [清单](cessna337/task/input.json) | 1 |
 | [海滩兽Strandbeest](strandbeest/README.md) | [任务书](strandbeest/task/brief.md) · [清单](strandbeest/task/input.json) | 1 |
