@@ -238,11 +238,12 @@
         },
         {
           "id": "workbuddy",
-          "model_label": "WorkBuddy 会话（模型 Claude，Anthropic；用户监督验收）",
+          "model_label": "Claude（具体型号未归档；执行工具 WorkBuddy；用户监督验收）",
           "provenance": "independent",
           "visual_goal": "fidelity",
           "readme": "cases/oc8/models/workbuddy/README.md",
           "live": "cases/oc8/models/workbuddy/index.html",
+          "film": "cases/oc8/models/workbuddy/film.html",
           "source": "cases/oc8/models/workbuddy/src",
           "spec": "cases/oc8/models/workbuddy/src/spec.md",
           "record": "cases/oc8/models/workbuddy/records/实现与验证.md",
@@ -268,8 +269,12 @@
             "cases/oc8/models/workbuddy/index.html",
             "cases/oc8/models/workbuddy/film.html"
           ],
-          "notes": "单文件 three.js r148 程序化实现，无构建步骤；film.html 为 25s 自动巡览（复用互动页全局状态驱动）。颚部/虹吸动作未逐一复现，README 内照实标注。",
-          "film": "cases/oc8/models/workbuddy/film.html"
+          "notes": "目录与版本 ID 沿用已发布路径 workbuddy，该名称是执行工具，不是模型名。模型为 Claude（Anthropic），具体型号未归档。单文件 three.js r148 程序化实现；film.html 由 node src/build.mjs 从 index.html 生成。颚部开合与虹吸喷进未逐一复现。",
+          "aliases": [
+            "claude"
+          ],
+          "online_live": "https://topmindspace.github.io/awesome-ai-recreations/cases/oc8/models/workbuddy/index.html",
+          "online_film": "https://topmindspace.github.io/awesome-ai-recreations/cases/oc8/models/workbuddy/film.html"
         }
       ],
       "task_manifest": "cases/oc8/task/input.json"
